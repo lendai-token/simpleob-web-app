@@ -257,7 +257,7 @@ export class ClientTrendsBarComponent implements OnInit {
               scaleLabel: {
                 display: true,
                 labelString: 'Values',
-                fontColor: '#1074B9'
+                fontColor: '#1a154f'
               }
             }
           }
