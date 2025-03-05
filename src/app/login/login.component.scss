@@ -27,9 +27,11 @@
     z-index: 2;
 
     .cover-title {
+      color: white !important;
       border-bottom: 2px solid #fff;
       margin: 0 0 20px;
       padding-bottom: 10px;
+      text-decoration: unset;
     }
 
     .cover-description {

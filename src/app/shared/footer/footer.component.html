@@ -3,14 +3,12 @@
   <div fxLayout="column" class="m-b-20 content">
     <table class="versions">
       <tr>
-        <td class="footer-content">Mifos</td>
-        <td class="right footer-content">
+        <td class="center footer-content">
           {{ versions.mifos }} - <b>{{ hash }}</b>
         </td>
       </tr>
       <tr>
-        <td class="footer-content">{{ 'labels.text.Fineract' | translate }}</td>
-        <td class="right footer-content">
+        <td class="center footer-content">
           {{ versions.fineract.version }} - <b>{{ versions.fineract.hash }}</b>
         </td>
       </tr>
@@ -29,6 +27,6 @@
   </div>
   <mat-divider fxFlexAlign="center" class="divider"></mat-divider>
   <p fxFlexAlign="center" class="footer-content">
-    {{ 'APP_NAME' | translate }} {{ 'labels.text.by' | translate }} Mifos
+    {{ 'APP_NAME' | translate }}
   </p>
 </div>
